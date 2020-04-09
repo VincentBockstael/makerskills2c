@@ -10,12 +10,15 @@ Python is a language ... We use it to read data from the computer mouse, and sen
 
 libraries:
 ```
-pip install python-rtmidi
+pip3 install python-rtmidi
+```
+```
+pip3 install pythonosc
 ```
 
- - pythonosc
+
  - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
- - python-rtmidi (pip3 install python-rtmidi)
+
  
 
 
