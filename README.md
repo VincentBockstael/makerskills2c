@@ -1,2 +1,8 @@
-# Maker Skills: Mouse violin 
+# Maker Skills: Mouse Violin 
 
+Requirements:
+ - usb mouse
+ - 
+ 
+Dependencies:
+ - 
