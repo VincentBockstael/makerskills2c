@@ -15,7 +15,9 @@ pip3 install python-rtmidi
 ```
 pip3 install pythonosc
 ```
-
+```
+python -m pip install --upgrade libusb
+```
 
  - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
 
