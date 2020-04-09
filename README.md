@@ -6,7 +6,7 @@ Software instruments that imitate acoustic instruments have been around for a wh
 
 ## Installing Python, PIP, and libraries:
 
-Python is a language ... We use it to read data from the computer mouse, and send out to our synthesis model. You can download and install python and pip from [here](https://www.python.org/downloads/). Follow the instructions in the installer.
+Python is an interpreted, high-level, general-purpose programming language. We use it to read data from the computer mouse, and send out to our synthesis model. You can download and install python and pip from [here](https://www.python.org/downloads/). Follow the instructions in the installer.
 
 libraries:
 ```
@@ -25,8 +25,8 @@ python -m pip install --upgrade libusb
 
 
  
-## Installing g++:
-G++ is a compiler for C++ code. We need it to build the c++ source code. [Here](https://www.cs.odu.edu/~zeil/cs250PreTest/latest/Public/installingACompiler/) you can find how to install g++ for each operating system.
+## Installing g++ and c++:
+g++ is a compiler for c++ code. We need it to build the c++ source code. [Here](https://www.cs.odu.edu/~zeil/cs250PreTest/latest/Public/installingACompiler/) you can find how to install g++ for each operating system.
 
 
 ## Installing C++ libraries:
@@ -36,13 +36,11 @@ We need a c++ library called liblo. To download and install it follow the instru
 
 
 ## installation:
- - 
  - download source code
  - make
  - DONE
  
 ## How to use:
-- 
 - attach mouse
 - run BowedModel
 ```
