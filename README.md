@@ -1,2 +1,2 @@
-# makerskills2c
-HKU:makerskill2c course
+# Maker Skills: Mouse violin 
+
