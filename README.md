@@ -4,11 +4,11 @@ Musical expression is a bottleneck for imitating an acoustic isntruments with di
 
 Software instruments that imitate acoustic instruments have been around for a while now. Altough the research on physical modeling of instruments stretches far beyond musical applicability, some interesting vsts, libraries and tools have been developed to put to use these ideas. One of those libraries is [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/ "The Synthesis ToolKit in C++ (STK)"). For an in depth overview of how this physical modelling works, it is highly recommended to browse through the STK website and source code.
 
-Installing Python, PIP, and libraries:
-- 
+## Installing Python, PIP, and libraries:
+
 Python is a language ... We use it to read data from the computer mouse, and send out to our synthesis model.
 
-Windows:
+### Windows:
 -
 
  - python
@@ -17,7 +17,7 @@ Windows:
  - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
  - python-rtmidi (pip3 install python-rtmidi)
  
-IOS:
+### IOS:
 -
 
  - python
@@ -26,7 +26,7 @@ IOS:
  - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
  - python-rtmidi (pip3 install python-rtmidi)
  
-Ubuntu:
+### Ubuntu:
 -
 
  - python
@@ -36,34 +36,31 @@ Ubuntu:
  - python-rtmidi (pip3 install python-rtmidi)
 
  
-Installing GCC:
+## Installing GCC:
 - 
 GCC is a compiler for C and C++ code. We need it to build the c++ source code
 
-Windows:
+### Windows:
 -
-IOS:
+### IOS:
 -
-Ubuntu:
+### Ubuntu:
 -
 
-Installing C++ libraries:
+## Installing C++ libraries:
 - 
 - liblo
 
-prerequisite:
- - 
- - C++ compiler
- - liblo
 
 
-installation:
+
+## installation:
  - 
  - download source code
  - make
  - DONE
  
-How to use:
+## How to use:
 - 
 - attach mouse
 - run BowedModel
