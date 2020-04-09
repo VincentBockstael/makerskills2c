@@ -4,23 +4,58 @@ Musical expression is a bottleneck for imitating an acoustic isntruments with di
 
 Software instruments that imitate acoustic instruments have been around for a while now. Altough the research on physical modeling of instruments stretches far beyond musical applicability, some interesting vsts, libraries and tools have been developed to put to use these ideas. One of those libraries is [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/ "The Synthesis ToolKit in C++ (STK)"). For an in depth overview of how this physical modelling works, it is highly recommended to browse through the STK website and source code.
 
-Requirements:
- - 
- - python
- - 
- 
-Installation:
+Installing Python, PIP, and libraries:
 - 
-prerequisite:
- - 
- - C++ compiler
- - rtaudio
- - liblo
+Python is a language ... We use it to read data from the computer mouse, and send out to our synthesis model.
+
+Windows:
+-
+
  - python
  - rtmidi
  - pythonosc
  - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
  - python-rtmidi (pip3 install python-rtmidi)
+ 
+IOS:
+-
+
+ - python
+ - rtmidi
+ - pythonosc
+ - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
+ - python-rtmidi (pip3 install python-rtmidi)
+ 
+Ubuntu:
+-
+
+ - python
+ - rtmidi
+ - pythonosc
+ - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
+ - python-rtmidi (pip3 install python-rtmidi)
+
+ 
+Installing GCC:
+- 
+GCC is a compiler for C and C++ code. We need it to build the c++ source code
+
+Windows:
+-
+IOS:
+-
+Ubuntu:
+-
+
+Installing C++ libraries:
+- 
+- liblo
+
+prerequisite:
+ - 
+ - C++ compiler
+ - liblo
+
 
 installation:
  - 
