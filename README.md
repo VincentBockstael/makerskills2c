@@ -4,10 +4,34 @@ Musical expression is a bottleneck for imitating an acoustic isntruments with di
 
 Software instruments that imitate acoustic instruments have been around for a while now. Altough the research on physical modeling of instruments stretches far beyond musical applicability, some interesting vsts, libraries and tools have been developed to put to use these ideas. One of those libraries is [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/ "The Synthesis ToolKit in C++ (STK)"). For an in depth overview of how this physical modelling works, it is highly recommended to browse through the STK website and source code.
 
-
-
 Requirements:
  - 
- 
-Dependencies:
+ - python
  - 
+ 
+Installation:
+- 
+prerequisite:
+ - 
+ - C++ compiler
+ - rtaudio
+ - liblo
+ - python
+ - rtmidi
+ - pythonosc
+ - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
+ - python-rtmidi (pip3 install python-rtmidi)
+
+installation:
+ - 
+ - download source code
+ - make
+ - DONE
+ 
+How to use:
+- 
+- attach mouse
+- run BowedModel
+- move mouse or use a violinstick
+
+ 
