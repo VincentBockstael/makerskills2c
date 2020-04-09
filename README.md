@@ -36,16 +36,10 @@ Python is a language ... We use it to read data from the computer mouse, and sen
  - python-rtmidi (pip3 install python-rtmidi)
 
  
-## Installing GCC:
+## Installing g++:
 - 
-GCC is a compiler for C and C++ code. We need it to build the c++ source code
+G++ is a compiler for C++ code. We need it to build the c++ source code. [Here](https://www.cs.odu.edu/~zeil/cs250PreTest/latest/Public/installingACompiler/) you can find how to install g++ for each operating system.
 
-### Windows:
--
-### IOS:
--
-### Ubuntu:
--
 
 ## Installing C++ libraries:
 - 
