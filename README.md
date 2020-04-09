@@ -45,6 +45,9 @@ We need a c++ library called liblo. To download and install it follow the instru
 - 
 - attach mouse
 - run BowedModel
+```
+./bin/BowedModel
+```
 - move mouse or use a violinstick
 
  
