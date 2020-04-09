@@ -9,6 +9,9 @@ Software instruments that imitate acoustic instruments have been around for a wh
 Python is a language ... We use it to read data from the computer mouse, and send out to our synthesis model. You can download and install python and pip from [here](https://www.python.org/downloads/). Follow the instructions in the installer.
 
 libraries:
+```
+pip install python-rtmidi
+```
 
  - pythonosc
  - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
@@ -22,7 +25,6 @@ G++ is a compiler for C++ code. We need it to build the c++ source code. [Here](
 
 
 ## Installing C++ libraries:
-- 
 - liblo
 
 
