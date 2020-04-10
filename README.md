@@ -73,7 +73,6 @@ Now you are ready to run the program, so:
 - Now move mouse or use a violinbow, and enjoy!
 
 ## How it works:
-Now you are ready to run the program, so:
 - When you run the C++ program, it starts the python script automatically. In python, we use libusb to read raw mouse movement data. This data is interpreted and smoothed, and then sent on to the C++ program through Open Sound Control. It also outputs MIDI if you want to use it with you own sounds
 
 - In C++, various parameters from your mouse, like velocity and bowing direction, are used to control the Physical Modelling Library.
