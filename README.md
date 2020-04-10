@@ -25,7 +25,7 @@ pip3 install python-rtmidi
 pip3 install pythonosc
 ```
 ```
-python -m pip install --upgrade libusb
+pip3 install libusb
 ```
 
 
