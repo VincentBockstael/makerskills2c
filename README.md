@@ -12,7 +12,12 @@ To install this software you will need first need to install a collection of pro
 
 Python is an interpreted, high-level, general-purpose programming language. We use it to read data from the computer mouse, and send out to our synthesis model. You can download and install python and pip from [here](https://www.python.org/downloads/). Follow the instructions in the installer.
 
-libraries:
+Next we need to install a few python libraries:
+- rtmidi
+- pythonosc
+- libusb
+
+Enter the following lines of code in cmd for windows of terminal on osx/linux.
 ```
 pip3 install python-rtmidi
 ```
@@ -22,10 +27,6 @@ pip3 install pythonosc
 ```
 python -m pip install --upgrade libusb
 ```
-
- - ibusb or openUSB (brew install libusb or sudo apt-get install libusb)
-
- 
 
 
  
