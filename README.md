@@ -46,19 +46,20 @@ We need a c++ library called liblo. To download and install it follow the instru
 
 
 ### installing Mouse Violin:
-Now you should be set to run the source code. To do this:
- - download the source code from this repository
+Now you should be set to compile the source code. To do this:
+ - Download the source code from this repository
  - cd to the location of the source code on your drive
- - enter the following line in cmd or the terminal:
+ - Enter the following line in cmd or the terminal:
  ```
  make
  ``` 
 ## How to use:
-- attach mouse
-- run BowedModel
+Now you are ready to run the program, so:
+- Attach a computer mouse
+- Run BowedModel with the following command in cmd or terminal. Make sure you cd inside the directory of the sourcecode.
 ```
 ./bin/BowedModel
 ```
-- move mouse or use a violinstick
+- Now move mouse or use a violinbow, and enjoy!
 
 
