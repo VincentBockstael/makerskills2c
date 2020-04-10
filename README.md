@@ -6,6 +6,8 @@ Software instruments that imitate acoustic instruments have been around for a wh
 
 ## Installation
 
+To install this software you will need first need to install a collection of programming languages and compilers. This does not only allow you to use the software, but also provides the possibility to research and adapt it to your likings.
+
 ### Installing Python, PIP, and libraries:
 
 Python is an interpreted, high-level, general-purpose programming language. We use it to read data from the computer mouse, and send out to our synthesis model. You can download and install python and pip from [here](https://www.python.org/downloads/). Follow the instructions in the installer.
