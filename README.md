@@ -49,7 +49,7 @@ We need a c++ library called liblo. To download and install it follow the instru
 
 ### installing Mouse Violin:
 Now you should be set to compile the source code. To do this:
- - Download the source code from this repository
+ - Download the source code from [this repository](https://github.com/VincentBockstael/makerskills2c)
  - cd to the location of the source code on your drive
  - Enter the following line in cmd or the terminal:
  ```
