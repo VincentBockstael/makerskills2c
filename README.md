@@ -45,7 +45,7 @@ g++ is a compiler for c++ code. We need it to build the c++ source code. [Here](
 We need a c++ library called liblo. To download and install it follow the instructions in [here](http://liblo.sourceforge.net/README.html).
 On Linux, you can also do:
 ```
-sudo apt-get install liblo-deb
+sudo apt-get install liblo-dev
 ```
 Or on macOS with Homebrew:
 ```
