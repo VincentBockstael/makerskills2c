@@ -25,6 +25,10 @@ ifeq ($(UNAME_S),Darwin)
 	LDFLAGS += -framework CoreMIDI -framework CoreAudio -framework CoreFoundation
 	RTFLAGS += -D__MACOSX_CORE__
 endif
+ifeq ($(OS),Windows_NT)
+    LDFLAGS +=  -lole32 -lwinmm -ldsound
+    RTFLAGS += -D__WINDOWS_DS__
+endif
 
 # compile macros
 TARGET_NAME := BowedModel # FILL: target name
