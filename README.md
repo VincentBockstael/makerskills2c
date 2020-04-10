@@ -50,15 +50,16 @@ We need a c++ library called liblo. To download and install it follow the instru
 ### installing Mouse Violin:
 Now you should be set to compile the source code. To do this:
  - Download the source code from [this repository](https://github.com/VincentBockstael/makerskills2c)
- - cd to the location of the source code on your drive
+ - cd to the location of the folder BowedModelingSTK on your drive
  - Enter the following line in cmd or the terminal:
  ```
  make
  ``` 
+ 
 ## How to use:
 Now you are ready to run the program, so:
 - Attach a computer mouse
-- Run BowedModel with the following command in cmd or terminal. Make sure you cd inside the directory of the sourcecode.
+- Run BowedModel with the following command in cmd or terminal. Make sure you cd inside the BowedModelingSTK directory.
 ```
 ./bin/BowedModel
 ```
