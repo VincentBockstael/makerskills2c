@@ -4,7 +4,9 @@ Musical expression is a bottleneck for imitating an acoustic isntruments with di
 
 Software instruments that imitate acoustic instruments have been around for a while now. Altough the research on physical modeling of instruments stretches far beyond musical applicability, some interesting vsts, libraries and tools have been developed to put to use these ideas. One of those libraries is [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/ "The Synthesis ToolKit in C++ (STK)"). For an in depth overview of how this physical modelling works, it is highly recommended to browse through the STK website and source code.
 
-## Installing Python, PIP, and libraries:
+## Installation
+
+### Installing Python, PIP, and libraries:
 
 Python is an interpreted, high-level, general-purpose programming language. We use it to read data from the computer mouse, and send out to our synthesis model. You can download and install python and pip from [here](https://www.python.org/downloads/). Follow the instructions in the installer.
 
@@ -25,17 +27,17 @@ python -m pip install --upgrade libusb
 
 
  
-## Installing g++ and c++:
+### Installing g++ and c++:
 g++ is a compiler for c++ code. We need it to build the c++ source code. [Here](https://www.cs.odu.edu/~zeil/cs250PreTest/latest/Public/installingACompiler/) you can find how to install g++ for each operating system.
 
 
-## Installing C++ libraries:
+### Installing liblo:
 We need a c++ library called liblo. To download and install it follow the instructions in [here](http://liblo.sourceforge.net/README.html).
 
 
 
 
-## installation:
+### installing Mouse Violin:
  - download source code
  - make
  - DONE
