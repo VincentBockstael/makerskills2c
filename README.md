@@ -4,6 +4,11 @@ Musical expression is a bottleneck for imitating an acoustic isntruments with di
 
 Software instruments that imitate acoustic instruments have been around for a while now. Altough the research on physical modeling of instruments stretches far beyond musical applicability, some interesting vsts, libraries and tools have been developed to put to use these ideas. One of those libraries is [The Synthesis ToolKit in C++ (STK)](https://ccrma.stanford.edu/software/stk/ "The Synthesis ToolKit in C++ (STK)"). For an in depth overview of how this physical modelling works, it is highly recommended to browse through the STK website and source code.
 
+<video width="320" height="240" controls>
+  <source type="video/mp4" src="Demo.mp4">
+</video>
+ 
+
 ## Installation
 
 To install this software you will need first need to install a collection of programming languages and compilers. This does not only allow you to use the software, but also provides the possibility to research and adapt it to your likings.
@@ -56,7 +61,4 @@ Now you should be set to run the source code. To do this:
 ```
 - move mouse or use a violinstick
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="Demo.mp4">
-</video>
- 
+
